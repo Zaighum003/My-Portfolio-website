@@ -16,27 +16,31 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/feild.webp";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "feild with hills in the background";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a web developer and data scientist with a passion for creating innovative and efficient solutions. I enjoy working on both front-end and back-end development, as well as analyzing data to drive decision-making.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "JavaScript",
+  "React",
+  "Node.js",
+  "Python",
+  "Data Analysis",
+  "Machine Learning",
+  "SQL",
+  "NoSQL Databases",
+  "API Development",
+  "Data Visualization",
 ];
 
 /**
@@ -45,7 +49,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am passionate about solving complex problems through innovative web development and data science techniques. By leveraging my expertise in both fields, I strive to create efficient, user-friendly solutions that drive meaningful insights and enhance user experiences.";
 
 const About = () => {
   return (
